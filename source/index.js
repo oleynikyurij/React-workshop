@@ -1,10 +1,14 @@
 // Core
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 // Theme
 import './theme/init';
 
-const start = <div className = 'start'>Добро пожаловать!</div>;
+import Instagram from './pages/Instagram';
 
-ReactDOM.render(start, document.getElementById('app'));
+
+
+
+
+ReactDOM.render(<Instagram />, document.getElementById('app'));
